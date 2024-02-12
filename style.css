@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color:black ;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navabar mulai */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: o 80px;
+    align-items: center;
+    background-color:#ff9100;
+    height: 55px;
+}
+
+nav .navbar-nav ul{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+
+nav .navbar-nav ul li{
+    list-style: none;
+    padding-left: 50px;
+}
+nav .navbar-nav ul li a {
+    color:black;
+    text-decoration: none;
+    padding-right:px;
+}
+
+nav .navbar-nav .active a {
+    font-weight: bold;
+}
+
+nav .navbar-nav ul image {
+    padding: right 10px;
+}
+
+nav .contact a{
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 40px;
+}
+/* navbar berakhir */
+
+/* kanan */
+.kanan{
+    display:flex;
+    padding-left: 170px;
+}
+
+.kiri {
+    padding-right: 200px;
+    justify-content: flex-end;
+}
+
+/* isi mulai */
+.portofolio {
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 50px 50px;
+    display: flex;
+}
+
+.isi P{
+    text-align: justify;
+}
+/* isi beakhir */
+
+/* downlod mulai */
+.downlod{
+    margin-top:20px;
+}
+
+.downlod a {
+    margin-left: 15px;
+}
+
+button {
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    padding: 7px 30px;
+}
+/* download berakhir */
+
+/* mdia sosial mulai */
+.sosial{
+    margin-top: 30px;
+}
+
+.sosial img{
+    width: 50px;
+}
+/* media soisal berakhir */
+
+/* foto mulai */
+.card {
+    padding-right:px;
+    box-shadow: 0px 8px 16px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px;
+    padding: right 0px;
+    align-items: center;
+}
+
+.card .gambar img {
+    width: 300px;
+    border-radius: 10px;
+}
+/* foto berakhir */
